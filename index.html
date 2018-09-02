@@ -9,14 +9,24 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
         <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 		<style>
-			
+
 .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.emoticon { white-space: pre; }
+
+
+.grid {
+	display: grid;
+	grid-template-columns:
+		[xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+}
+
+.grid *  { grid-column: md; }
+.grid-xl { grid-column: xl; }
+
 
 		</style>		  
 	</head>
@@ -121,7 +131,7 @@
 								<div class="content">
 									<h1 class="title is-size-4">Comedian</h1>
 									<p class="is-size-5">
-										Amateur stand-up comedian. I watch way too many Netflix standups and comedy series. Love making fun of myself.
+										Amateur stand-up comedian. I watch way too many Netflix standups and comedy series.
 									</p>
 								</div>
 							</div>
@@ -133,9 +143,16 @@
 		<!-- /.section -->
 
 		<!-- .section -->
-		<section class="section">
-			<div class="container">
-				
+		<section class="section is-paddingless-horizontal" style="padding-top: 10;">
+			<div class="container grid" style="max-width: 1024px;">
+				<div class="content is-medium notification">
+					<figure class="image center">
+						<h1>Education</h1>
+					</figure>
+						<p>
+							BS in Computer Science @ Penn State
+						</p>
+				</div>
 			</div>
 		</section>
 		<!-- /.section -->
