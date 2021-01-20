@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Your page title here :</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- skeleton -->
+    <link rel="stylesheet" href="./css/skeleton.css">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/main.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
+    <!-- greensock -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script> -->
 </head>
 <body>
-
+  <section id="home" class="landing-page">
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
@@ -39,6 +36,86 @@
       </div>
     </div>
   </div>
+
+
+  <div id="about" class="about-container">
+    <h1> About Me </h1>
+    <div class="about-bio">
+      <!-- <div class="about-pic"> -->
+        <!-- <img id="about-headshot" src="./assets/wayne.jpeg" alt=""> -->
+      <!-- </div> -->
+      <div class="about-text">
+        <p>
+          Hi there, my name is Adrian Kato. I aspire to become a&nbsp;software engineer that can contribute to a meaningful purpose.
+          My focus is on learning full-stack development technologies and building something cool with them.
+          Outside of work, I like to read, write and tinker with personal projects. 
+        </p>
+      </div>
+      <div class="about-experience">
+        <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon">
+            </div>
+            <div class="timeline-content right">
+              <p class="timeline-content-month"> Aug - Now </p>
+              <p class="timeline-content-date"> 2020-2021</p>
+              <p class="timeline-company"> Ernst & Young - Tax Technology and Transformation</p>
+              <p class="timeline-position"> Intelligent Automation Developer </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon">
+            </div>
+            <div class="timeline-content right">
+              <p class="timeline-content-month"> May - Aug </p>
+              <p class="timeline-content-date"> 2019</p>
+              <p class="timeline-company"> Penn State - Industrial Engineering Department</p>
+              <p class="timeline-position"> Undergraduate Research Assistant </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon">
+            </div>
+            <div class="timeline-content right">
+              <p class="timeline-content-month"> May - Aug </p>
+              <p class="timeline-content-date"> 2018</p>
+              <p class="timeline-company"> Penn State - D.A.T.A Labs </p>
+              <p class="timeline-position"> Software Developer (Part-Time) </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-education" style="margin-top: 50px;">
+        <div class="edu-title" style="margin-bottom: 20px;">
+          <strong>Education</strong>
+        </div>
+        <table class="education" style="width: 100%;">
+          <tr>
+            <td style="width: 25%;">
+              <span class="e-year">2016 - 2020</span>
+            </td>
+            <td>
+              <strong>Bachelor of Science in Computer Science in Computer Science</strong>
+              <div class="e-univ">
+                Pennsylvania State University
+              </div>
+            </td>
+          </tr>
+        </table>
+
+
+
+
+  <div id="contact" class="contact-container">
+    <h1> Contact </h1>
+    <div class="contact-content">
+      <p> Glad you want to reach out! </p>
+      <p> You can find me on <a href="https://www.linkedin.com/in/adriankato" class="contact-link animate" target="_blank"> LinkedIn</a> or <a href="https://github.com/adriankato" class="contact-link animate" target="_blank"> Github</a> .</p>
+      <p> You can also <a href="mailto:adriankato@gmail.com" class="contact-link animate"> shoot me an email</a> .</p>
+      <p> View my resume <a href="./assets/resume.pdf" class="contact-link animate" target="_blank"> here</a> .</p>
+    </div>
+  </div>
+  </section>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
