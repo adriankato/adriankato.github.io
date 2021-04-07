@@ -1,3 +1,1 @@
-# adriankato.github.io
-
-Personal website for Keisuke (Adrian) Kato: adriankato.github.io
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
