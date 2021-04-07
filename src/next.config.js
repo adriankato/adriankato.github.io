@@ -1,5 +1,6 @@
-const ghPages = process.env.DEPLOY_TARGET === 'gh-pages';
+const basePath = process.env.NODE_ENV === 'production' ? '/repo' : '';
 
 module.exports = {
-  assetPrefix: ghPages ? '/adriankato.github.io/' : ''   // customize this value
+  basePath,
+  assetPrefix: `${basePath}/`
 };
