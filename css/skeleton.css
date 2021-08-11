@@ -426,22 +426,21 @@ Navbar
 
 .navbar > .container {
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;}
+  margin-bottom: 0;
+  margin-left: 15%;
+  } 
 .navbar-list {
   list-style: none;
   margin-bottom: 0; }
 .navbar-item {
   position: relative;
   float: left;
-  left: 200px;
+  /* left: 200px; */
   margin-bottom: 0; }
 .navbar-link {
-  text-transform: uppercase;
-  font-size: 11px;
-  font-weight: 600;
+  text-transform: lowercase;
+  font-size: 12px;
+  font-weight: 1600;
   letter-spacing: .2rem;
   margin-right: 105px;
   text-decoration: none;
@@ -449,19 +448,13 @@ Navbar
   color: #222; }
 .navbar-link.active {
   color: #33C3F0; }
-.has-docked-nav .navbar {
-  position: fixed;
-  top: 0;
-  left: 0; }
-
-
-  .contact-list {
-    list-style: none;
-    margin-bottom: 0; }
-  .contact-item {
-    position: relative;
-    float: left;
-    margin-bottom: 0; }
+.contact-list {
+  list-style: none;
+  margin-bottom: 0; }
+.contact-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0; }
 .contact-link {
   text-transform: lowercase;
   font-size: 11px;
